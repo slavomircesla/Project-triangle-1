@@ -282,25 +282,3 @@ $("#reset").click(function(){
         location.reload();
     });
 
-$( "document" ).ready(function() {
-  if (typeof(Storage) !== "undefined") 
-  {
-        var value;
-      if(localStorage.visited)
-            {
-                value=localStorage.getItem("visited");
-                value++;
-                localStorage.visited=value;
-            }
-        else 
-            {
-                localStorage.setItem("visited", "1");
-                value=1;
-            }
-        document.getElementById('visited').innerHTML="Number of visitors: "+value;
-    // Code for localStorage/sessionStorage.
-  } 
-  else 
-  {
-      // Sorry! No Web Storage support..
-  }
