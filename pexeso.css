@@ -1,0 +1,45 @@
+.card {
+	
+    width: 150px;
+    height: 150px;
+	cursor: pointer;
+}
+
+#hrac2 {
+	text-align: right;
+	margin-top: 6px;
+	margin-right: 6px;
+	text-decoration-color: blue;
+}
+
+#hrac {
+	text-decoration-color: yellow;
+	text-align: right;
+	margin-top: 6px;
+	margin-left: 6px;
+}
+
+.col-md-3 {
+	border: 3px solid;
+}
+
+.col-md-6 {
+	border: 6px solid;
+	padding: 6px auto;
+}
+
+#gameboard {
+	text-align: center;
+	
+	background-color: red;
+}
+#troll
+{
+	margin: 10px auto;
+}
+#reset {
+	text-align: center;
+	color: red;
+    background-color: yellow;
+    margin: 10px auto;
+}
