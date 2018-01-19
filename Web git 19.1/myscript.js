@@ -14,7 +14,7 @@ function deleteOutput()
 }
 function printmessage()
 {
-  document.getElementById("message").innerHTML="Click on me";
+  document.getElementById("message").innerHTML="Table of Persons";
 }
 function delmessage()
 {
