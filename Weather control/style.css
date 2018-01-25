@@ -1,0 +1,22 @@
+ input {
+text-align: center;
+    color: blue;
+}
+#table {
+
+   background:  #aaea26; border-style: ridge;
+
+}
+
+td {
+    text-align: center;
+
+}
+#tr2
+{
+    color: blue;
+}
+
+body {
+    color: red;
+}
