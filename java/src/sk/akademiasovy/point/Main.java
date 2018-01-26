@@ -76,5 +76,8 @@ public class Main {
 
         MyClass myClass=new MyClass();
         System.out.println(myClass.isEmailValid("Janko.novak@@@hrasko"));
+
+
+        System.out.println(myClass.getGender("951215/7946"));
     }
 }

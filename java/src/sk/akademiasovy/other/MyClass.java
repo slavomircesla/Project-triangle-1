@@ -44,5 +44,36 @@ public class MyClass {
     }
 
 
+
+    public Gender getGender(String nin)
+    {
+        char z=nin.charAt(2);
+
+        if(nin.charAt(6)=='/' && nin.length()!=11) {
+            return Gender.NONE;
+        }
+        if(nin.charAt(6)=='/' && nin.length()!=10) {
+            return Gender.NONE;
+        }
+        if(nin.charAt(6)=='/' && nin.length()!=9) {
+            return Gender.NONE;
+        }
+        if(z=='0' || z==1)
+        {
+            return Gender.MALE;
+        }
+        else if(z=='5' || z=='6')
+        {
+            return Gender.FEMALE;
+        }else
+            return Gender.NONE;
+
+    }
+
+
+
+
+
+
     }
 
